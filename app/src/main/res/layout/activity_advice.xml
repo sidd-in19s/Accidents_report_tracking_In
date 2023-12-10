@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/advice_back333"
+    android:orientation="vertical"
+    tools:context=".AdviceActivity">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:textStyle="bold"
+            android:textSize="20dp"
+            app:cornerRadius="20dp"
+            android:id="@+id/accident_report_redirect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button_glass"
+            android:text="Report Accident"
+            android:textColor="@color/black" />
+
+        <Button
+            android:textStyle="bold"
+            android:textSize="20dp"
+            app:cornerRadius="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/statistics_graph_redirect"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded_button_glass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Statistics Graph"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:background="@drawable/background_glass_dark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Causes"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+            
+            
+
+            <TextView
+                android:layout_margin="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) Distracted driving: This is one of the most common causes of road accidents. Drivers who are distracted by their phones, eating, drinking, or other activities are more likely to cause accidents."
+                android:textSize="17dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_margin="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2) Speeding: Driving at high speeds increases the risk of accidents. It reduces the driver's reaction time and makes it harder to control the vehicle."
+                android:textSize="17dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_margin="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3) Drunk driving: Driving under the influence of alcohol or drugs is a major cause of road accidents. It impairs the driver's judgment, vision, and reaction time."
+                android:textSize="17dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_margin="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4) Reckless driving: Drivers who engage in reckless behavior such as tailgating, weaving in and out of traffic, or ignoring traffic signals are more likely to cause accidents."
+                android:textSize="17dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_margin="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5) Poor road conditions: Poorly maintained roads, potholes, and other hazards can cause accidents."
+                android:textSize="17dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_glass_dark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Preventions"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_margin="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1) Avoid distracted driving: Drivers should avoid using their phones, eating, or engaging in other activities that can distract them while driving."
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2) Observe speed limits: Drivers should observe speed limits and adjust their speed to the road conditions."
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3) Don't drink and drive: Drivers should never drive under the influence of alcohol or drugs."
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4) Drive defensively: Drivers should be aware of their surroundings and anticipate potential hazards. They should also avoid aggressive driving behavior."
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5) Maintain your vehicle: Regular maintenance of your vehicle can help prevent accidents caused by mechanical failure."
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6) Follow traffic rules: Drivers should obey traffic signals, signs, and laws to prevent accidents."
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7) Wear seat belts: Wearing seat belts can reduce the risk of injury or death in the event of an accident."
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8) Improve road conditions: Governments and local authorities should invest in improving road conditions, including maintenance and repair of roads and installation of safety features such as guardrails and traffic lights."
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/white"/>
+
+
+            </LinearLayout>
+
+            <Button
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/logout_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_glass"
+                android:text="Logout"
+                android:textSize="25dp"
+                app:cornerRadius="20dp" />
+            
+            
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

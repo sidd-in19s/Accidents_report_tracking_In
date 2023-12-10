@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">CrashTrack</string>
+    <string-array name="vehicle_types">
+        <item>Bike</item>
+        <item>Car</item>
+        <item>Jeep</item>
+        <item>Bus</item>
+        <item>Tempo</item>
+        <item>Truck</item>
+        <item>Rickshaw</item>
+    </string-array>
+
+    <string-array name="india_states">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+
+    <string-array name="accident_causes">
+
+        <item>Distracted driving</item>
+        <item>Speeding</item>
+        <item>Driving under the influence</item>
+        <item>Reckless driving</item>
+        <item>Poor road conditions</item>
+        <item>Vehicle malfunctions</item>
+        <item>Weather conditions</item>
+        <item>Inexperienced drivers</item>
+        <item>Failure to follow traffic rules</item>
+        <item>Unknown</item>
+    </string-array>
+
+
+    <string-array name="state_abbreviations">
+        <item>AP</item>
+        <item>AR</item>
+        <item>AS</item>
+        <item>BR</item>
+        <item>CG</item>
+        <item>GA</item>
+        <item>GJ</item>
+        <item>HR</item>
+        <item>HP</item>
+        <item>JH</item>
+        <item>KA</item>
+        <item>KL</item>
+        <item>MP</item>
+        <item>MH</item>
+        <item>MN</item>
+        <item>ML</item>
+        <item>MZ</item>
+        <item>NL</item>
+        <item>OD</item>
+        <item>PB</item>
+        <item>RJ</item>
+        <item>SK</item>
+        <item>TN</item>
+        <item>TS</item>
+        <item>TR</item>
+        <item>UP</item>
+        <item>UK</item>
+        <item>WB</item>
+        <item>AN</item>
+        <item>CH</item>
+        <item>DD</item>
+        <item>LD</item>
+        <item>DL</item>
+        <item>PY</item>
+        <item>JK</item>
+        <item>LA</item>
+    </string-array>
+
+    <string-array name="district_codes">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

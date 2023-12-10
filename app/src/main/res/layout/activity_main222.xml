@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lavender_border"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="50dp"
+
+    tools:context=".MainActivity222">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                app:cardElevation="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="224dp"
+                android:layout_height="73dp"
+                app:cardCornerRadius="20dp">
+            <ImageView
+
+                android:src="@drawable/logo_black"
+                android:layout_width="224dp"
+                android:layout_height="73dp"
+                 />
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="       Select Vehicle Type:"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <Spinner
+                android:entries="@array/vehicle_types"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/vehicle_spinner"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="0dp"
+                android:padding="8dp"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tv1_testing"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="       Enter Vehicle Number:"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Spinner
+                    android:entries="@array/state_abbreviations"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/abbreviation_spinner"
+                    android:background="@drawable/lavender_border"
+                    android:layout_marginTop="5dp"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/black"/>
+
+                <Spinner
+                    android:entries="@array/district_codes"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/district_codes_spinner"
+                    android:background="@drawable/lavender_border"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:inputType="text"
+                    android:maxLength="2"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/vehicle_registration_code"
+                    android:background="@drawable/lavender_border"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:hint="Vehicle Number"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/vehicle_4_number"
+                    android:background="@drawable/lavender_border"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/black"/>
+
+
+            </LinearLayout>
+
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/casualties"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/red_border"
+                android:drawableLeft="@drawable/noun_casualties_2223256"
+                android:drawablePadding="8dp"
+                android:hint="Number of casualties"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/injuries"
+                android:background="@drawable/red_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Number of injuries"
+                android:drawableLeft="@drawable/injury_icon"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/city_village"
+                android:background="@drawable/green_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="City/Village"
+                android:drawableLeft="@drawable/baseline_location_on_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:maxLength="6"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/pin_code"
+                android:background="@drawable/green_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Pin code"
+                android:drawableLeft="@drawable/baseline_location_on_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/district"
+                android:background="@drawable/green_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="District name"
+                android:drawableLeft="@drawable/baseline_location_on_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="       Select State:"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <Spinner
+                android:entries="@array/india_states"
+                android:background="@drawable/green_border"
+                android:layout_marginTop="0dp"
+                android:id="@+id/my_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/landmark"
+                android:background="@drawable/green_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Landmark/Near"
+                android:drawableLeft="@drawable/baseline_landscape_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="       Select cuase of accident:"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <Spinner
+                android:entries="@array/accident_causes"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="0dp"
+                android:id="@+id/cause_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+            <EditText
+                android:drawableTop="@drawable/baseline_details_24"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:gravity="top|start"
+                android:maxLines="100"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cause"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Detailed cause of accident"
+
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:padding="8dp"
+        android:background="@drawable/lavender_border"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/live_location"
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📍Send my Live Location to Emergency Services"
+                android:textColor="#1E8707"/>
+    </LinearLayout>
+
+
+            <LinearLayout
+                android:background="@drawable/lavender_border"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Warning"
+                    android:textColor="@color/red_perfect"/>
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="False reporting of accidents is strictly prohibited and will not be tolerated. Any user found providing fake information will face strict action. Please ensure that all reports are accurate and truthful to help keep our community safe."
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+
+            <Button
+                android:textColor="@color/black"
+                android:background="@drawable/rounded_button_glass"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Submit Report"
+                android:id="@+id/report_button"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                app:cornerRadius="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>
